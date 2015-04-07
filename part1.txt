@@ -1,0 +1,11 @@
+mysql> create function c_exp(one int, two int) returns int
+     return (one * two);
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> select c_exp(7,7);
++-----------+
+|c_exp(7,7) |
++-----------+
+|        49 |
++-----------+
+1 row in set (0.01 sec)

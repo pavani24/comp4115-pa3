@@ -1,0 +1,57 @@
+Area Examples:
+
+mysql> select area_calc(4);
+		+--------------+
+		| area_calc(8) |
+		+--------------+
+		|       200.96 |
+		+--------------+
+		1 row in set (0.04 sec)
+
+mysql> select area_calc(66);
+		+---------------+
+		| area_calc(10) |
+		+---------------+
+		|           314 |
+		+---------------+
+		1 row in set (0.03 sec)
+
+mysql> select area_calc(66);
+		+---------------+
+		| area_calc(12) |
+		+---------------+
+		|        452.16 |
+		+---------------+
+		1 row in set (0.01 sec)
+
+mysql> select area_calc(66);
+		+---------------+
+		| area_calc(14) |
+		+---------------+
+		|        615.44 |
+		+---------------+
+		1 row in set (0.02 sec)
+
+mysql> select calculate_time(4567);
+		+----------------------+
+		| calculate_time(4567) |
+		+----------------------+
+		| 1:16:07              |
+		+----------------------+
+		1 row in set (1.06 sec)
+
+mysql> select calculate_time(6543);
+		+----------------------+
+		| calculate_time(6543) |
+		+----------------------+
+		| 1:49:03              |
+		+----------------------+
+		1 row in set (0.89 sec)
+
+mysql> select calculate_time(7656);
+		+----------------------+
+		| calculate_time(7656) |
+		+----------------------+
+		| 2:07:36              |
+		+----------------------+
+		1 row in set (1.19 sec)
